@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+    Hello, Bitch!
+</div>
+
+<script crossorigin th:src="${isDevMode} ? 'http://localhost:8081/bundle.js' : 'bundle.js'"></script>
+</body>
+</html>
